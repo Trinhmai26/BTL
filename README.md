@@ -77,10 +77,9 @@ Sử dụng ConcurrentHashMap để lưu trữ danh sách client đang hoạt đ
 <p align="center">
       <img src="https://github.com/user-attachments/assets/7df41678-0213-4c9c-803e-5acb57233908" />
 
- width="600"/>
 </p>
 <p align="center">
-  <em> Hình 2: Giao diện của user</em>
+  <em> Hình 2: Đăng kí tài khoản</em>
 </p>
 
 
