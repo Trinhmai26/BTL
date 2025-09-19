@@ -71,7 +71,7 @@ Sử dụng ConcurrentHashMap để lưu trữ danh sách client đang hoạt đ
 </p>
 
 <p align="center">
-  <em>Hình 1: Giao diện đăng kí </em>
+  <em>Hình 1: Giao diện đăng nhập </em>
 </p>
 3.1. Giao diện của user
 <p align="center">
@@ -84,20 +84,21 @@ Sử dụng ConcurrentHashMap để lưu trữ danh sách client đang hoạt đ
 
 
 <p align="center">
-       <img src="https://github.com/user-attachments/assets/7df41678-0213-4c9c-803e-5acb57233908" />
+       <img src="https://github.com/user-attachments/assets/c30f251a-e7d1-4747-a739-d93eec107e1c" />
 
 </p>
 <p align="center">
-  <em> Hình 3: Giao diện lịch sử đăng nhập
+  <em> Hình 4: Giao diện lịch sử đăng nhập
   <p align="center">
-  <img src="https://github.com/user-attachments/assets/934e73ee-5364-42d9-a65c-f4c81a8e75a1" />
-" width="600"/>
+  <img src="https://github.com/user-attachments/assets/47d50fc9-8e9c-4a74-bc0f-1a7afa70f403" />
+
  
 </p>
 <p align="center">
   <em> Hình 3: Giao diện tải file
   <p align="center">
-  <img src="https://github.com/user-attachments/assets/cfb535db-3d2f-4ad0-973a-2783c3942a57" /> 
+  <img src="https://github.com/user-attachments/assets/f9c8ee3f-dc09-471a-bdb3-864ed65bf54d" /> 
+
 
 </p>
 <p align="center">
