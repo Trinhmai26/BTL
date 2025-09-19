@@ -49,52 +49,55 @@ Trong kiến trúc này:
 
 3.1. Giao diện User
 <p align="center">
- <img src="https://github.com/user-attachments/assets/c5e72b93-c202-4894-9223-dd01311deeae" />
+<img src="https://github.com/user-attachments/assets/ee52dd65-8c54-4091-b63a-761d809fc2da" />
+
 <p align="center">
   <em>Hình 2: Giao diện Dashboard </em>
 </p>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/6f304ba0-25d0-4550-baa5-4592b528f1bb" />
-
+  
+<img src="https://github.com/user-attachments/assets/1c99b6d3-0ff7-4500-9454-8579771f5535" />
 <p align="center">
   <em>Hình 3: Giao diện User </em>
 </p>
 <p align="center">
- <img src="https://github.com/user-attachments/assets/a18a21a6-a0f7-4106-a94e-feaf6f434058" />
+<img src="https://github.com/user-attachments/assets/2002da79-cadd-427b-831a-3da85740f2b2" />
+
 <p align="center">
   <em>Hình 4: Giao diện Lgin history </em>
 </p>
 <p align="center">
- <img src="https://github.com/user-attachments/assets/743960ac-5bbe-49a3-a7af-8cda83a33a58" />
 
 <p align="center">
   <em>Hình 5: Giao diện Lgin Broadcast </em>
 </p>
 3.2. Giao diện Admin
 <p align="center">
- <img src="https://github.com/user-attachments/assets/110c15c2-ba81-4224-bd12-58f89ae3d72d" />
+<img src="https://github.com/user-attachments/assets/68bb77db-bf29-400c-8176-1588610ffbaf" />
 
 <p align="center">
   <em>Hình 6: Giao diện đăng kí </em>
 </p>
 <p align="center">
- <img src="https://github.com/user-attachments/assets/0dda6f9e-802d-42e7-a90a-8980ba6396ac" />
+<img src="https://github.com/user-attachments/assets/aba940dd-1908-48b6-8587-c91ad614bedc" />
+
 <p align="center">
   <em>Hình 7: Giao diện Thông tin cá nhân </em>
 </p>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/9d954d31-d772-47b4-bfcb-fc97d196a8a0" />
+ <img  src="https://github.com/user-attachments/assets/20fe375a-dc62-472a-8472-07e9e4d60150" />
+
 <p align="center">
   <em>Hình 8: Giao diện Lịch sử đăng nhập </em>
 </p>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/363c9d35-a329-4211-b496-6a3da5446921" />
-<p align="center">
+  <img src="https://github.com/user-attachments/assets/83ce3292-c27f-466e-bf4d-19391ef52e94" />
+
   <em>Hình 9: Giao diện tải file </em>
 </p>
 </p>
 <p align="center">
- <img src="https://github.com/user-attachments/assets/c2fff05e-bfae-43b3-9b45-bc2fd3b4b54c" />
+ <img src="https://github.com/user-attachments/assets/1a27e741-847a-4b58-9b57-fa6f62575e6e" />
 
 <p align="center">
   <em>Hình 10: Giao diện tải file </em>
