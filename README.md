@@ -22,9 +22,6 @@
 
 ## 📖 1. Giới thiệu
 
-Ok 👍 mình sẽ viết phần **Giới thiệu đề tài** cho báo cáo *Hệ thống đăng nhập Client–Server bằng giao thức TCP (Java + MySQL)*:
-
----
 
 ### 📖 Giới thiệu đề tài
 
