@@ -95,7 +95,7 @@ Sử dụng ConcurrentHashMap để lưu trữ danh sách client đang hoạt đ
 <p align="center">
   <em> Hình 3: Giao diện lịch sử đăng nhập
   <p align="center">
-  <img src="docs/dn.jpg" alt="![tảiifiel](https://github.com/user-attachments/assets/b66ccbd9-1cbb-4fbb-a102-8f0fbffdf805)
+  <img src=(https://github.com/user-attachments/assets/934e73ee-5364-42d9-a65c-f4c81a8e75a1)
 " width="600"/>
  
 </p>
