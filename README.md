@@ -22,7 +22,27 @@
 
 ## 📖 1. Giới thiệu
 
-Hệ thống đăng nhập Client-Server là một mô hình phần mềm cho phép quản lý và xác thực người dùng thông qua giao thức TCP. Với cơ chế này, hệ thống đảm bảo khả năng truyền thông ổn định, an toàn và đáng tin cậy trong các hoạt động đăng ký, đăng nhập và quản lý tài khoản.
+Ok 👍 mình sẽ viết phần **Giới thiệu đề tài** cho báo cáo *Hệ thống đăng nhập Client–Server bằng giao thức TCP (Java + MySQL)*:
+
+---
+
+### 📖 Giới thiệu đề tài
+
+Trong thời đại công nghệ thông tin phát triển mạnh mẽ, việc xây dựng các ứng dụng mạng an toàn và hiệu quả ngày càng trở nên quan trọng. Một trong những chức năng cơ bản và phổ biến nhất trong các hệ thống phần mềm chính là **chức năng đăng nhập (Login System)**, nhằm xác thực và quản lý người dùng.
+
+Đề tài **“Hệ thống đăng nhập Client–Server bằng giao thức TCP ngôn ngữ Java”** được xây dựng với mục tiêu mô phỏng quá trình giao tiếp giữa **client** và **server** thông qua giao thức **TCP/IP**. Trong đó:
+
+* **Server** có nhiệm vụ quản lý kết nối, xử lý yêu cầu và xác thực tài khoản người dùng.
+* **Client** đóng vai trò gửi thông tin đăng nhập (username, password) đến server để kiểm tra.
+* **Cơ sở dữ liệu MySQL** được sử dụng để lưu trữ thông tin tài khoản, đảm bảo khả năng quản lý dữ liệu tập trung, an toàn và dễ mở rộng.
+
+Hệ thống hỗ trợ **đa luồng**, cho phép nhiều client kết nối và làm việc đồng thời mà không ảnh hưởng đến hiệu năng. Đây là một ứng dụng thực tiễn giúp sinh viên nắm vững kiến thức về:
+
+* lập trình mạng trong Java,
+* giao thức TCP,
+* cơ chế đa luồng (multithreading),
+* và kỹ thuật kết nối cơ sở dữ liệu (JDBC – MySQL).
+
 
 Trong kiến trúc này:  
 
