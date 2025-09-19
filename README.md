@@ -39,7 +39,8 @@ Trong kiến trúc này:
 
 ## 🖼️ 3. Hình ảnh chức năng
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/efa7ae7c-7b8a-47d3-a3ae-ad32414ef0cd"/>
+ <img src="https://github.com/user-attachments/assets/393881c9-8b2c-4084-aaa4-b1c0d9e188b0" />
+
 </p>
 
 
