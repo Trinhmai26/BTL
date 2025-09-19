@@ -1,4 +1,4 @@
-<img width="1231" height="863" alt="image" src="https://github.com/user-attachments/assets/128c1d91-1948-42a5-be25-72e7e4713c0c" /><h2 align="center">
+<h2 align="center">
     <a href="https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin">
     🎓 Faculty of Information Technology (DaiNam University)
     </a>
@@ -66,20 +66,17 @@ Sử dụng ConcurrentHashMap để lưu trữ danh sách client đang hoạt đ
 Đồng bộ hóa khi ghi/đọc dữ liệu từ MySQL thông qua JDBC.
 ## 🖼️ 3. Hình ảnh chức năng
 <p align="center">
-  <img src="docs/ql.jpg" alt="![z7026767551648_190cd36416b0618312564c2309680f20](https://github.com/user-attachments/assets/d83e3f48-8c50-4da1-8c5d-6b1287ad1f62)
-" width="600"/>
+  <img src="https://github.com/user-attachments/assets/d83e3f48-8c50-4da1-8c5d-6b1287ad1f62" />
+
 </p>
-![z7026767551648_190cd36416b0618312564c2309680f20](https://github.com/user-attachments/assets/17589674-391a-4fb5-8bc4-8c058ab71db8)
-
-![lịch sử đăng nhập](https://github.com/user-attachments/assets/934e73ee-5364-42d9-a65c-f4c81a8e75a1)
-
 
 <p align="center">
   <em>Hình 1: Giao diện đăng kí </em>
 </p>
 3.1. Giao diện của user
 <p align="center">
-  <img src="docs/dk.jpg" alt="![z7026772992686_05ec3fc67a0b4661dd9361b98b037900](https://github.com/user-attachments/assets/7df41678-0213-4c9c-803e-5acb57233908)"
+      <img src="https://github.com/user-attachments/assets/7df41678-0213-4c9c-803e-5acb57233908" />
+
  width="600"/>
 </p>
 <p align="center">
@@ -88,9 +85,8 @@ Sử dụng ConcurrentHashMap để lưu trữ danh sách client đang hoạt đ
 
 
 <p align="center">
-  <img src="docs/dn.jpg" alt="![lịch sử đăng nhập](https://github.com/user-attachments/assets/57d7bfe6-e97c-40b2-a2ff-46ab0b22a50e)
-" width="600"/>
- 
+       <img src="https://github.com/user-attachments/assets/7df41678-0213-4c9c-803e-5acb57233908" />
+
 </p>
 <p align="center">
   <em> Hình 3: Giao diện lịch sử đăng nhập
@@ -102,10 +98,8 @@ Sử dụng ConcurrentHashMap để lưu trữ danh sách client đang hoạt đ
 <p align="center">
   <em> Hình 3: Giao diện tải file
   <p align="center">
-  <img src="docs/dn.jpg" alt="![hỗ trợ](https://github.com/user-attachments/assets/cfb535db-3d2f-4ad0-973a-2783c3942a57)
+  <img src="https://github.com/user-attachments/assets/cfb535db-3d2f-4ad0-973a-2783c3942a57" /> 
 
-" width="600"/>
- 
 </p>
 <p align="center">
   <em> Hình 3: Giao diện hỗ trợ
