@@ -36,73 +36,58 @@ Trong kiến trúc này:
 - Cho phép nhiều client kết nối đồng thời, gửi thông tin đăng nhập tới server.
 - Server xử lý, kiểm tra dữ liệu trong cơ sở dữ liệu và phản hồi kết quả.
 - Củng cố kiến thức về lập trình mạng, đa luồng và kết nối cơ sở dữ liệu trong Java.
-- Tạo nền tảng để mở rộng với các chức năng như đăng ký tài khoản, phân quyền và bảo mật nâng cao.
+- Tạo nền tảng để mở rộng vớBoadcast
 
-## 🔧 2. Công nghệ sử dụng
-
-### 🌐 Ngôn Ngữ Lập Trình
-- **Java SE 17+**: Ngôn ngữ lập trình chính  
-- Hỗ trợ lập trình hướng đối tượng, đa luồng, lập trình socket  
-
-### 🎨 Giao Diện Người Dùng
-- **Java Swing**: Xây dựng giao diện desktop  
-- Các thành phần chính: `JFrame`, `JPanel`, `JButton`, `JTextField`, `JPasswordField`, `JTable`  
-- Xử lý sự kiện: `ActionListener`, `MouseListener`  
-
-### 🌐 Truyền Thông Mạng
-- **Giao thức TCP/IP**: Truyền dữ liệu đáng tin cậy  
-- `Socket` & `ServerSocket`: Kết nối client-server  
-- Luồng đối tượng: `ObjectInputStream` & `ObjectOutputStream` để gửi/nhận dữ liệu  
-
-### 🗄️ Lưu Trữ Dữ Liệu
-- MySQL Workbench: Sử dụng hệ quản trị cơ sở dữ liệu MySQL để lưu trữ thông tin người dùng.
-Bảng users chứa các thông tin tài khoản (username, password, role, ...).
-Các thao tác chính: thêm, sửa, xóa, tìm kiếm, xác thực tài khoản thông qua Java JDBC kết nối MySQL.
-
-### 🔄 Xử Lý Đa Luồng
-Java Multithreading + ExecutorService: Cho phép nhiều client kết nối và hoạt động đồng thời.
-Mỗi client được quản lý bởi một thread riêng (ClientHandler) trong Thread Pool, tránh lãng phí tài nguyên.
-Sử dụng ConcurrentHashMap để lưu trữ danh sách client đang hoạt động, đảm bảo an toàn luồng khi truy cập dữ liệu.
-Đồng bộ hóa khi ghi/đọc dữ liệu từ MySQL thông qua JDBC.
-## 🖼️ 3. Hình ảnh chức năng
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/d83e3f48-8c50-4da1-8c5d-6b1287ad1f62" />
-
-</p>
-
-<p align="center">
-  <em>Hình 1: Giao diện đăng nhập </em>
-</p>
-3.1. Giao diện của user
-<p align="center">
-      <img src="https://github.com/user-attachments/assets/7df41678-0213-4c9c-803e-5acb57233908" />
-
-</p>
-<p align="center">
-  <em> Hình 2: Đăng kí tài khoản</em>
-</p>
+## ⚙️ 4. Các bước cài đặt
 
 
-<p align="center">
-       <img src="https://github.com/user-attachments/assets/c30f251a-e7d1-4747-a739-d93eec107e1c" />
+### 🔹 Bước 1: Chuẩn bị môi trường  
+- Cài đặt **Java Development Kit (JDK 8 trở lên)**  
+  - Tải tại: [Oracle JDK](https://www.oracle.com/java/technologies/javase-downloads.html) hoặc [OpenJDK](https://jdk.java.net/)  
+  - Kiểm tra cài đặt:  
+    ```bash
+    java -version
+    javac -version
+    ```  
 
-</p>
-<p align="center">
-  <em> Hình 4: Giao diện lịch sử đăng nhập
-  <p align="center">
-  <img src="https://github.com/user-attachments/assets/47d50fc9-8e9c-4a74-bc0f-1a7afa70f403" />
+- Cài đặt một IDE hỗ trợ Java (khuyến nghị):  
+  - [IntelliJ IDEA](https://www.jetbrains.com/idea/)  
+  - [Eclipse](https://www.eclipse.org/)  
+  - [NetBeans](https://netbeans.apache.org/)  
 
- 
-</p>
-<p align="center">
-  <em> Hình 3: Giao diện tải file
-  <p align="center">
-  <img src="https://github.com/user-attachments/assets/f9c8ee3f-dc09-471a-bdb3-864ed65bf54d" /> 
+- Cài đặt MySQL
+
+---
+
+### 🔹 Bước 2: Lưu trữ dữ liệu trong MySQL
+Khởi tạo CSDL: Tạo cơ sở dữ liệu MySQL để quản lý thông tin đăng nhập.
+Thiết kế bảng: Xây dựng bảng users với các cột: username, password, email, fullname, role, status, createdAt…
+Lưu trữ dữ liệu: Mỗi tài khoản là một bản ghi trong bảng.
+K3:Chạy hệ thống
+```
+    Chạy ServerMain
+```
+```
+    Chạy ClientApp
+```
+### 🔹 Bước 5:Kiểm Thử
+- Đăng ký: tạo tài khoản mới → tự động ghi vào MySQL
+
+- Đăng nhập: kiểm tra tài khoản → trạng thái chuyển off → onl.
+
+- Đăng xuất: hệ thống cập nhật lại trạng thái onl → off.
+  
+- Admin: Bảng điều khiển (Dashboard) tóm tắt: số lượng user, số user đang online, số lần đăng nhập thất bại…
+## 📞5. Liên hệ
+Nếu bạn có bất kỳ thắc mắc hoặc cần hỗ trợ về dự án **Hệ Thống Đăng Nhập Client-Server**, vui lòng liên hệ:  
+
+- 👨‍🎓 **Sinh viên thực hiện**: Trịnh Thị Yến Mai 
+- 🎓 **Khoa**: Công nghệ thông tin – Đại học Đại Nam  
+- 📧 **Email**: trinhyenmai26@@gmail.com
 
 
-</p>
-<p align="center">
-  <em> Hình 3: Giao diện hỗ trợ
+
+
 
 
 
