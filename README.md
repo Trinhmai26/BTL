@@ -1,4 +1,4 @@
-<h2 align="center">
+<img width="1238" height="877" alt="image" src="https://github.com/user-attachments/assets/a1eb2c99-8fd3-4bdc-816c-21aed30511f4" /><h2 align="center">
     <a href="https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin">
     🎓 Faculty of Information Technology (DaiNam University)
     </a>
@@ -37,6 +37,75 @@ Trong kiến trúc này:
 - Server xử lý, kiểm tra dữ liệu trong cơ sở dữ liệu và phản hồi kết quả.
 - Củng cố kiến thức về lập trình mạng, đa luồng và kết nối cơ sở dữ liệu trong Java.
 - Tạo nền tảng để mở rộng vớBoadcast
+
+## 🖼️ 3. Hình ảnh chức năng
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/efa7ae7c-7b8a-47d3-a3ae-ad32414ef0cd"/>
+</p>
+
+
+<p align="center">
+  <em>Hình 1: Giao diện đăng nhập </em>
+</p>
+
+3.1. Giao diện User
+<p align="center">
+ src="https://github.com/user-attachments/assets/c5e72b93-c202-4894-9223-dd01311deeae" />
+<p align="center">
+  <em>Hình 2: Giao diện Dashboard </em>
+</p>
+<p align="center">
+ src="https://github.com/user-attachments/assets/6f304ba0-25d0-4550-baa5-4592b528f1bb" />
+
+<p align="center">
+  <em>Hình 3: Giao diện User </em>
+</p>
+<p align="center">
+src="https://github.com/user-attachments/assets/a18a21a6-a0f7-4106-a94e-feaf6f434058" />
+<p align="center">
+  <em>Hình 4: Giao diện Lgin history </em>
+</p>
+<p align="center">
+src="https://github.com/user-attachments/assets/743960ac-5bbe-49a3-a7af-8cda83a33a58" />
+
+<p align="center">
+  <em>Hình 5: Giao diện Lgin Broadcast </em>
+</p>
+3.2. Giao diện Admin
+<p align="center">
+src="https://github.com/user-attachments/assets/110c15c2-ba81-4224-bd12-58f89ae3d72d" />
+
+<p align="center">
+  <em>Hình 6: Giao diện đăng kí </em>
+</p>
+<p align="center">
+src="https://github.com/user-attachments/assets/0dda6f9e-802d-42e7-a90a-8980ba6396ac" />
+<p align="center">
+  <em>Hình 7: Giao diện Thông tin cá nhân </em>
+</p>
+<p align="center">
+ src="https://github.com/user-attachments/assets/9d954d31-d772-47b4-bfcb-fc97d196a8a0" />
+<p align="center">
+  <em>Hình 8: Giao diện Lịch sử đăng nhập </em>
+</p>
+<p align="center">
+ src="https://github.com/user-attachments/assets/363c9d35-a329-4211-b496-6a3da5446921" />
+<p align="center">
+  <em>Hình 9: Giao diện tải file </em>
+</p>
+</p>
+<p align="center">
+src="https://github.com/user-attachments/assets/c2fff05e-bfae-43b3-9b45-bc2fd3b4b54c" />
+
+<p align="center">
+  <em>Hình 9: Giao diện tải file </em>
+</p>
+
+
+
+
+
+
 
 ## ⚙️ 4. Các bước cài đặt
 
