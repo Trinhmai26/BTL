@@ -1,22 +1,139 @@
+Skip to content
+Navigation Menu
+Trinhmai26
+BTL
+
+Type / to search
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+BTL
+/
+README.md
+in
+main
+
+Edit
+
+Preview
+Indent mode
+
+Spaces
+Indent size
+
+4
+Line wrap mode
+
+Soft wrap
+Editing README.md file contents
+Selection deleted
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
 <h2 align="center">
     <a href="https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin">
     🎓 Faculty of Information Technology (DaiNam University)
     </a>
 </h2>
-<h2 align="center">
-   NETWORK PROGRAMMING
-</h2>
+
+
 <div align="center">
     <p align="center">
-        <img src="docs/aiotlab_logo.png" alt="AIoTLab Logo" width="170"/>
-        <img src="docs/fitdnu_logo.png" alt="AIoTLab Logo" width="180"/>
-        <img src="docs/dnu_logo.png" alt="DaiNam University Logo" width="200"/>
+        <img width="170" alt="aiotlab_logo" src="https://github.com/user-attachments/assets/41ef702b-3d6e-4ac4-beac-d8c9a874bca9" />
+        <img width="180" alt="fitdnu_logo" src="https://github.com/user-attachments/assets/ec4815af-e477-480b-b9fa-c490b74772b8" />
+        <img width="200" alt="dnu_logo" src="https://github.com/user-attachments/assets/2bcb1a6c-774c-4e7d-b14d-8c53dbb4067f" />
     </p>
 
 [![AIoTLab](https://img.shields.io/badge/AIoTLab-green?style=for-the-badge)](https://www.facebook.com/DNUAIoTLab)
 [![Faculty of Information Technology](https://img.shields.io/badge/Faculty%20of%20Information%20Technology-blue?style=for-the-badge)](https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin)
 [![DaiNam University](https://img.shields.io/badge/DaiNam%20University-orange?style=for-the-badge)](https://dainam.edu.vn)
 
+</div>
 <h1 align="center">HỆ THỐNG ĐĂNG NHẬP CLIENT SERVER </h1>
 </div>
 
@@ -53,6 +170,26 @@ Trong kiến trúc này:
 - Server xử lý, kiểm tra dữ liệu trong cơ sở dữ liệu và phản hồi kết quả.
 - Củng cố kiến thức về lập trình mạng, đa luồng và kết nối cơ sở dữ liệu trong Java.
 - Tạo nền tảng để mở rộng vớBoadcast
+## 🔧 2. Công nghệ sử dụng
+
+### 🌐 Ngôn Ngữ Lập Trình
+- **Java SE 17+**: Ngôn ngữ lập trình chính  
+- Hỗ trợ lập trình hướng đối tượng, đa luồng, lập trình socket  
+
+### 🎨 Giao Diện Người Dùng
+- **Java Swing**: Xây dựng giao diện desktop  
+- Các thành phần chính: `JFrame`, `JPanel`, `JButton`, `JTextField`, `JPasswordField`, `JTable`  
+- Xử lý sự kiện: `ActionListener`, `MouseListener`  
+
+### 🗄️ Lưu Trữ Dữ Liệu
+- Sử dụng My SQL
+- Chứa thông tin tài khoản (username, password, role, …)  
+- Thao tác: đọc, ghi, cập nhật, xóa tài khoản bằng Java I/O  
+
+### 🔄 Xử Lý Đa Luồng
+- **Java Multithreading**: Cho phép nhiều client kết nối đồng thời  
+- Thread riêng cho từng client để tránh xung đột  
+- Đồng bộ hóa khi ghi/đọc dữ liệu từ MySQL
 
 ## 🖼️ 3. Hình ảnh chức năng
 <p align="center">
@@ -60,124 +197,7 @@ Trong kiến trúc này:
 
 </p>
 
-
-<p align="center">
-  <em>Hình 1: Giao diện đăng nhập </em>
-</p>
-
-3.1. Giao diện User
-<p align="center">
-<img src="https://github.com/user-attachments/assets/ee52dd65-8c54-4091-b63a-761d809fc2da" />
-
-<p align="center">
-  <em>Hình 2: Giao diện Dashboard </em>
-</p>
-<p align="center">
-  
-<img src="https://github.com/user-attachments/assets/1c99b6d3-0ff7-4500-9454-8579771f5535" />
-<p align="center">
-  <em>Hình 3: Giao diện User </em>
-</p>
-<p align="center">
-<img src="https://github.com/user-attachments/assets/2002da79-cadd-427b-831a-3da85740f2b2" />
-
-<p align="center">
-  <em>Hình 4: Giao diện Lgin history </em>
-</p>
-<p align="center">
-
-<p align="center">
-  <em>Hình 5: Giao diện Lgin Broadcast </em>
-</p>
-3.2. Giao diện Admin
-<p align="center">
-<img src="https://github.com/user-attachments/assets/68bb77db-bf29-400c-8176-1588610ffbaf" />
-
-<p align="center">
-  <em>Hình 6: Giao diện đăng kí </em>
-</p>
-<p align="center">
-<img src="https://github.com/user-attachments/assets/aba940dd-1908-48b6-8587-c91ad614bedc" />
-
-<p align="center">
-  <em>Hình 7: Giao diện Thông tin cá nhân </em>
-</p>
-<p align="center">
- <img  src="https://github.com/user-attachments/assets/20fe375a-dc62-472a-8472-07e9e4d60150" />
-
-<p align="center">
-  <em>Hình 8: Giao diện Lịch sử đăng nhập </em>
-</p>
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/83ce3292-c27f-466e-bf4d-19391ef52e94" />
-
-  <em>Hình 9: Giao diện tải file </em>
-</p>
-</p>
-<p align="center">
- <img src="https://github.com/user-attachments/assets/1a27e741-847a-4b58-9b57-fa6f62575e6e" />
-
-<p align="center">
-  <em>Hình 10: Giao diện tải file </em>
-</p>
-
-
-
-
-
-
-
-## ⚙️ 4. Các bước cài đặt
-
-
-### 🔹 Bước 1: Chuẩn bị môi trường  
-- Cài đặt **Java Development Kit (JDK 8 trở lên)**  
-  - Tải tại: [Oracle JDK](https://www.oracle.com/java/technologies/javase-downloads.html) hoặc [OpenJDK](https://jdk.java.net/)  
-  - Kiểm tra cài đặt:  
-    ```bash
-    java -version
-    javac -version
-    ```  
-
-- Cài đặt một IDE hỗ trợ Java (khuyến nghị):  
-  - [IntelliJ IDEA](https://www.jetbrains.com/idea/)  
-  - [Eclipse](https://www.eclipse.org/)  
-  - [NetBeans](https://netbeans.apache.org/)  
-
-- Cài đặt MySQL
-
----
-
-### 🔹 Bước 2: Lưu trữ dữ liệu trong MySQL
-Khởi tạo CSDL: Tạo cơ sở dữ liệu MySQL để quản lý thông tin đăng nhập.
-Thiết kế bảng: Xây dựng bảng users với các cột: username, password, email, fullname, role, status, createdAt…
-Lưu trữ dữ liệu: Mỗi tài khoản là một bản ghi trong bảng.
-K3:Chạy hệ thống
-```
-    Chạy ServerMain
-```
-```
-    Chạy ClientApp
-```
-### 🔹 Bước 5:Kiểm Thử
-- Đăng ký: tạo tài khoản mới → tự động ghi vào MySQL
-
-- Đăng nhập: kiểm tra tài khoản → trạng thái chuyển off → onl.
-
-- Đăng xuất: hệ thống cập nhật lại trạng thái onl → off.
-  
-- Admin: Bảng điều khiển (Dashboard) tóm tắt: số lượng user, số user đang online, số lần đăng nhập thất bại…
-## 📞5. Liên hệ
-Nếu bạn có bất kỳ thắc mắc hoặc cần hỗ trợ về dự án **Hệ Thống Đăng Nhập Client-Server**, vui lòng liên hệ:  
-
-- 👨‍🎓 **Sinh viên thực hiện**: Trịnh Thị Yến Mai 
-- 🎓 **Khoa**: Công nghệ thông tin – Đại học Đại Nam  
-- 📧 **Email**: trinhyenmai26@@gmail.com
-
-
-
-
-
-
-
-
+Use Control + Shift + m to toggle the tab key moving focus. Alternatively, use esc then tab to move to the next interactive element on the page.
+No file chosen
+Attach files by dragging & dropping, selecting or pasting them.
+Editing BTL/README.md at main · Trinhmai26/BTL
