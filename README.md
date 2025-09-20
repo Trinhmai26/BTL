@@ -81,7 +81,129 @@ Trong kiến trúc này:
 
 </p>
 
-Use Control + Shift + m to toggle the tab key moving focus. Alternatively, use esc then tab to move to the next interactive element on the page.
-No file chosen
-Attach files by dragging & dropping, selecting or pasting them.
-Editing BTL/README.md at main · Trinhmai26/BTL
+<p align="center">
+  <em>Hình 1: Giao diện Đăng nhập</em>
+
+##  3.1. giao diện Admin
+<p align="center">
+<img src="https://github.com/user-attachments/assets/532626c2-babf-47c5-9e3e-89c6ce62f2d3" />
+</p>
+<p align="center">
+  <em>Hình 2: Giao diện Dashboard</em>
+  <p align="center">
+<img  src="https://github.com/user-attachments/assets/8786d425-775b-4b0a-8ec8-7a0d6bc6081c" />  
+</p>
+<p align="center">
+  <em>Hình 3: Giao diện User</em>
+   <p align="center">
+       <img src="https://github.com/user-attachments/assets/ab47db01-6bea-4226-b79d-514d1e1a2d37" />
+</p>
+<p align="center">
+  <em>Hình 4: Giao diện Login story</em>
+       <p align="center">
+       <img src="https://github.com/user-attachments/assets/77964eef-3a3e-426a-905c-b0fb24fd5604" />
+</p>
+<p align="center">
+  <em>Hình 5: Giao diện Đăng kí</em>
+      <p align="center">
+       <img src="https://github.com/user-attachments/assets/77964eef-3a3e-426a-905c-b0fb24fd5604" />
+</p>
+<p align="center">
+  <em>Hình 6: Giao diện Đăng kí</em>
+          <p align="center">
+       <img src="https://github.com/user-attachments/assets/a7065392-d518-4919-80f6-e726b5b00b86" />
+</p>
+<p align="center">
+  <em>Hình 7: Giao diện Thông tin cá nhân </em>
+            <p align="center">
+       <img  src="https://github.com/user-attachments/assets/d4eebd78-d1c0-4ed6-a429-7d5d1446a249" />
+
+</p>
+<p align="center">
+  <em>Hình 7: Giao diện Lịch sử đăng nhập </em>
+              <p align="center">
+       <img  rc="https://github.com/user-attachments/assets/3b3cc7f0-4361-46c7-b160-ab3b2fc21e0b" />
+
+</p>
+<p align="center">
+  <em>Hình 8: Giao diện hỗ trợ </em>
+## ⚙️ 4. Các bước cài đặt
+
+
+### 🔹 Bước 1: Chuẩn bị môi trường  
+- Cài đặt **Java Development Kit (JDK 8 trở lên)**  
+  - Tải tại: [Oracle JDK](https://www.oracle.com/java/technologies/javase-downloads.html) hoặc [OpenJDK](https://jdk.java.net/)  
+  - Kiểm tra cài đặt:  
+    ```bash
+    java -version
+    javac -version
+    ```  
+
+- Cài đặt một IDE hỗ trợ Java (khuyến nghị):  
+  - [IntelliJ IDEA](https://www.jetbrains.com/idea/)  
+  - [Eclipse](https://www.eclipse.org/)  
+  - [NetBeans](https://netbeans.apache.org/)  
+
+- Chuẩn bị file dữ liệu `users.csv` để lưu thông tin tài khoản.  
+
+---
+
+### 🔹 Bước 2:Lưu Trữ Dữ Liệu Qua MySQL  
+- Khởi tạo CSDL: Tạo cơ sở dữ liệu MySQL để quản lý thông tin đăng nhập.
+- Thiết kế bảng: Xây dựng bảng users với các cột: username, password, email, fullname, role, status, createdAt…
+- Lưu trữ dữ liệu: Mỗi tài khoản là một bản ghi trong bảng.
+- Kết nối ứng dụng: Java kết nối MySQL qua JDBC để thao tác dữ liệu.
+- Thao tác chính (CRUD): Thêm, đọc, cập nhật, xóa tài khoản.
+- Bảo mật: Mật khẩu được mã hóa, hạn chế truy cập trực tiếp vào CSDL.
+### 🔹 Bước 3:Biên dịch source
+Mở terminal tại thư mục dự án, gõ lệnh:
+```
+bash
+Sao chép mã
+javac BTL/*.java
+👉 Lệnh trên sẽ biên dịch toàn bộ source code trong package hi.
+```
+### 🔹 Bước 4:Chạy hệ thống
+```
+    Chạy ServerMain
+```
+```
+    Chạy ClientApp
+```
+### 🔹 Bước 5:Kiểm Thử
+Kết nối: kiểm tra client có kết nối được với server qua TCP.
+
+Đăng nhập: thử với tài khoản đúng, sai, hoặc không tồn tại.
+
+CSDL MySQL: kiểm tra thêm, sửa, xóa tài khoản và trạng thái online/offline.
+
+Đa luồng: nhiều client đăng nhập cùng lúc không bị xung đột.
+
+Phân quyền: admin và user có quyền khác nhau.
+
+Bảo mật: mật khẩu mã hóa, hạn chế truy cập trái phép.
+
+Hiệu năng: đo thời gian phản hồi và độ ổn định khi tải cao.
+
+## 📞5. Liên hệ
+Nếu bạn có bất kỳ thắc mắc hoặc cần hỗ trợ về dự án **Hệ Thống Đăng Nhập Client-Server**, vui lòng liên hệ:  
+
+- 👨‍🎓 **Sinh viên thực hiện**: Trịnh Thị Yến Mai 
+- 🎓 **Khoa**: Công nghệ thông tin – Đại học Đại Nam  
+- 📧 **Email**: Trinhyenmai26@.com
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
